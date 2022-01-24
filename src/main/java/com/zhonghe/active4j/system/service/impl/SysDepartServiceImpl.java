@@ -40,6 +40,8 @@ public class SysDepartServiceImpl extends ServiceImpl<SysDepartDao, SysDepartEnt
 		
 		return lstUsers;
 	}
+
+
 	
 	/**
 	 * 获取指定部门下的子部门
