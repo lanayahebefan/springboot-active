@@ -32,6 +32,7 @@ public class SysDepartServiceImpl extends ServiceImpl<SysDepartDao, SysDepartEnt
 	 * @param depart
 	 * @return
 	 */
+	@Override
 	public List<SysUserEntity> getUsersByDept(SysDepartEntity depart){
 		QueryWrapper<SysUserEntity> queryWrapper = new QueryWrapper<SysUserEntity>();
 		queryWrapper.eq("DEPT_ID", depart.getId());

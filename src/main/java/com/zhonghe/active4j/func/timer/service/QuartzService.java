@@ -42,7 +42,7 @@ public class QuartzService {
 	@Autowired
     private Scheduler scheduler;
 
-    @PostConstruct
+//    @PostConstruct
     public void startScheduler() {
         try {
             scheduler.start();
