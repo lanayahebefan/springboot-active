@@ -47,7 +47,7 @@ public class ExportExampleController extends BaseController {
 	@Autowired
 	private ExportExampleService exportExampleService;
 
-	private static final String prefix_page = "func/export/";
+	private static final String PREFIX_PAGE = "func/export/";
 	
 	/**
 	 * 
@@ -60,7 +60,7 @@ public class ExportExampleController extends BaseController {
 	 */
 	@RequestMapping("/list")
 	public String list(Model model) {
-		return prefix_page + "index_list.html";
+		return PREFIX_PAGE + "index_list.html";
 	}
 	
 	/**
